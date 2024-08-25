@@ -5,16 +5,14 @@ export default async function Home() {
   const { userId } = await auth()
 
   return (
-    <div className="w-screen h-screen flex justify-center items-center text-white bg-black">
+    <div className=" w-screen h-screen flex justify-center items-center text-white bg-black/90">
       <div className="w-full max-w-[600px] mx-auto text-center">
-        <h1 className="text-4xl mb-4">
-          Smart Speed Detection: Smiles for Safety, Alerts for Action
-        </h1>
+        <h1 className="text-6xl mb-4">Smart india hackathon SIH</h1>
         <p className="text-1xl  mb-4">
-          Our RADAR speed detection system promotes safe driving by displaying
-          happy emojis for compliant speeds and capturing photos when limits are
-          exceeded. All data is sent to the cloud for easy access and
-          monitoring. Drive smarter with our innovative solution.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+          error, culpa quidem ipsa sit amet sint ratione aliquid laborum
+          quibusdam aperiam soluta? Inventore ad assumenda harum voluptas
+          architecto nesciunt aperiam!
         </p>
         <div>
           <Link href="/checkuser">
